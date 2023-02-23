@@ -17,6 +17,8 @@ function handleInput(e) {
       checkError(data);
       createCountriesDesc(data);
     });
+  } else {
+    clearCountry();
   }
 }
 
