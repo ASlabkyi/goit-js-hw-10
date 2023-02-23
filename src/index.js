@@ -47,7 +47,7 @@ function markupCountries(countries) {
   return countries
     .map(
       country =>
-        `<li class="country-list__el"><img src="${country.flags.svg}" alt="${country.flags.alt}" width="24"><h2>${country.name.official}</h2></li>`
+        `<li class="country-list__el"><img src="${country.flags.svg}" alt="${country.flags.alt}" width="24" height="24"><h2>${country.name.official}</h2></li>`
     )
     .join('');
 }
